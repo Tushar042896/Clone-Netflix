@@ -78,6 +78,7 @@ nav button {
     font-weight: 400;
     font-size: 24px;
     text-align: center;
+    
 
 }
 
@@ -143,6 +144,7 @@ nav button {
     color: white;
     align-items: center;
     font-family: 'Martel Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 500px;
 
 }
 
@@ -178,5 +180,32 @@ nav button {
 .first > div :nth-child(2){
     font-size: 1.5rem;
     font-weight: 400;
+
+}
+.faq h2{
+    text-align: center;
+}
+.faq{
+    background: black;
+    color: white;
+    padding: 34px;
+    font-family: 'Martel Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+
+}
+.faqbox:hover{
+    background-color: rgb(37,36,36);
+}
+.faqbox{
+    font-size: 24px;
+    display: flex;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 40vw;
+    margin: 34px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    color: white;
+    
 
 }
